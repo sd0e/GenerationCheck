@@ -39,6 +39,9 @@ function findGeneration() {
     } else if (input > 2012 && input < 2026) {
         document.getElementById('generation').innerHTML = "Gen Alpha";
         document.getElementById('yearGroups').innerHTML = "(2013 - 2025)";
+    } else {
+        document.getElementById('generation').innerHTML = "Hmm, you don't seem to exist!";
+        document.getElementById('yearGroups').innerHTML = "Try again and make sure the year was entered correctly.";
     };
     document.getElementById('generationDiv').style.display = "block";
 }
