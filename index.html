@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GenerationCheck</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>GenerationCheck</h1>
+        <p>Enter your birth year:</p>
+        <input type="number" id="yearInput" class="yearInput">
+        <br><br><br>
+        <button class="checkButton" id="checkButton" onclick="findGeneration();">Click to see your generation</button>
+        <br><br><br>
+        <div class="generationDiv" id="generationDiv">
+            <h2>You are</h2>
+            <h1 class="generation" id="generation">loading...</h1>
+            <h1 class="yearGroups" id="yearGroups">loading...</h1>
+        </div>
+    </body>
+</html>
