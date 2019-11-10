@@ -19,7 +19,7 @@ function findGeneration() {
         document.getElementById('generation').innerHTML = "The Silent Generation";
         document.getElementById('yearGroups').innerHTML = "(1925 - 1945)";
     } else if (input > 1945 && input < 1965) {
-        document.getElementById('generation').innerHTML = "Baby Boomer Generation";
+        document.getElementById('generation').innerHTML = "Baby Boomer Generation (OK Boomer)";
         document.getElementById('yearGroups').innerHTML = "(1946 - 1964)";
     } else if (input > 1964 && input < 1975) {
         document.getElementById('generation').innerHTML = "Generation X (Baby Bust)";
